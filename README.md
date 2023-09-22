@@ -7,7 +7,7 @@ To serve as a guide to download, edit, and upload this code to your Arduino powe
 - Download the Arduino IDE to your computer from [this link](https://www.arduino.cc/en/software).
 
 ## 2. Download the code file
-- Clone this project or download the file you want to use.
+- Clone this project or download the file you want to use. The included files are in the `code` folder.
   - `mainKiln.ino` is the code that is currently on the device, pieces of the code has comments that give a bit more context to the decision making tree involved.
   - `warmer.ino` is another program that I used during the winter that keeps the kiln at a constant temperature in colder weather. I stored paint and chemicals in here at 50°F instead of letting it freeze in the barn this past winter. Change the `setTemp` variable to the temperature you want the kiln to maintain. Follow the steps below to update the kiln.
 - Open it in the Arduino IDE.
